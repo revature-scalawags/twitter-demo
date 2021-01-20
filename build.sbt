@@ -4,4 +4,7 @@ organization := "com.revature.mehrab"
 version := "1.0"
 
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.0.1"
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "3.0.1"
 libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.12"
+libraryDependencies += "org.apache.bahir" %% "spark-streaming-twitter" % "2.4.0"
+libraryDependencies += "org.apache.spark" %% "spark-sql-kafka-0-10" % "3.0.1"
